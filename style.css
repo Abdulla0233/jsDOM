@@ -8,4 +8,53 @@ a {
 }
 a:hover {
   color: black;
+}
+
+#toDo {
+  padding: 200px 0;
+}
+#toDo .box, #toDo .minibox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#toDo .box .minibox, #toDo .minibox .minibox {
+  width: 200px;
+  height: 200px;
+  background-color: #9c6644;
+  border: none;
+  border-radius: 20px;
+}
+#toDo .box .minibox h1, #toDo .minibox .minibox h1 {
+  color: white;
+  font-size: 30px;
+  margin: 10px 0 0 60px;
+}
+#toDo .box .minibox .btn, #toDo .minibox .minibox .btn {
+  border-radius: 20px;
+  background-color: white;
+  margin: 0 66px;
+  padding: 5px 20px;
+}
+#toDo .box .minibox input, #toDo .minibox .minibox input {
+  margin: 27px 20px;
+  padding: 10px;
+}
+#toDo .box .end, #toDo .minibox .end {
+  padding: 60px 0;
+  width: 15%;
+}
+#toDo .box .end .res, #toDo .minibox .end .res {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #5f5f5f;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px 50px;
+  margin-bottom: 15px;
+}
+#toDo .box .end .res h3, #toDo .minibox .end .res h3 {
+  text-align: center;
+  font-size: 50px;
 }/*# sourceMappingURL=style.css.map */
